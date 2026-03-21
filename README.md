@@ -2,7 +2,7 @@
 
 This repository contains the LaTeX source code and the final PDF version of my curriculum vitae.
 
-[Download the PDF version](resume.pdf)
+[Download the PDF version](CV_Alfredo_Mungari.pdf)
 
 ## Resume Preview
 
