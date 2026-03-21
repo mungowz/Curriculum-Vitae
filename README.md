@@ -8,10 +8,10 @@ This repository contains the LaTeX source code and the final PDF version of my c
 
 <p align="center">
   <a href="resume.pdf">
-    <img src="CV_Alfredo_Mungari-1.jpg" width="48%" alt="CV Page 1">
+    <img src="CV_Alfredo_Mungari-1.png" width="48%" alt="CV Page 1">
   </a>
   <a href="resume.pdf">
-    <img src="CV_Alfredo_Mungari-2.jpg" width="48%" alt="CV Page 2">
+    <img src="CV_Alfredo_Mungari-2.png" width="48%" alt="CV Page 2">
   </a>
 </p>
 
