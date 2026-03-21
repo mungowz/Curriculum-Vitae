@@ -55,8 +55,8 @@ I am open to new opportunities and challenging projects. Feel free to reach out:
 
 Email: a.mungari@gmail.com
 
-LinkedIn: [www.linkedin.com/in/alfredo-mungari-99ab9225a](Alfredo Mungari)
+LinkedIn: [Alfredo Mungari](www.linkedin.com/in/alfredo-mungari-99ab9225a)
 
-GitHub: [https://github.com/mungowz](mungowz)
+GitHub: [mungowz](https://github.com/mungowz)
 
-ResearchGate: [https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf](Alfredo Mungari)
+ResearchGate: [Alfredo Mungari](https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf)
