@@ -7,7 +7,7 @@ This repository contains the LaTeX source code and the final PDF version of my c
 ## Resume Preview
 
 <p align="center">
-  <a href="resume.pdf">
+  <a href="CV_Alfredo_Mungari.pdf">
     <img src="CV_Alfredo_Mungari-1.png" width="48%" alt="CV Page 1">
   </a>
   <a href="resume.pdf">
@@ -55,8 +55,8 @@ I am open to new opportunities and challenging projects. Feel free to reach out:
 
 Email: a.mungari@gmail.com
 
-LinkedIn: Alfredo Mungari
+LinkedIn: [www.linkedin.com/in/alfredo-mungari-99ab9225a](Alfredo Mungari)
 
-GitHub: mungowz
+GitHub: [https://github.com/mungowz](mungowz)
 
-ResearchGate: Alfredo Mungari
+ResearchGate: [https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf](Alfredo Mungari)
