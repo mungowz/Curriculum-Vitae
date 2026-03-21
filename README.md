@@ -1,62 +1,71 @@
-# Alfredo Mungari - Professional Resume
+# Alfredo Mungari — Curriculum Vitae
 
-This repository contains the LaTeX source code and the final PDF version of my curriculum vitae.
+This repository contains the LaTeX source code and the compiled PDF of my curriculum vitae.
 
-[Download the PDF version](CV_Alfredo_Mungari.pdf)
+[Download the PDF](CV_Alfredo_Mungari.pdf)
 
-## Resume Preview
+---
+
+## Preview
 
 <p align="center">
   <a href="CV_Alfredo_Mungari.pdf">
-    <img src="CV_Alfredo_Mungari-1.png" width="48%" alt="CV Page 1">
-  </a>
-  <a href="resume.pdf">
-    <img src="CV_Alfredo_Mungari-2.png" width="48%" alt="CV Page 2">
+    <img src="CV_Alfredo_Mungari.png" width="60%" alt="CV Preview">
   </a>
 </p>
 
+---
+
 ## About Me
 
-I am a Data Scientist and Software Engineer with a BSc in Computer Science (Summa Cum Laude) and I am currently completing my Master's Degree in Applied Computer Science (Machine Learning & Big Data) at Parthenope University in Naples (Expected Graduation: April 2026).
+I am a Data Scientist specializing in Machine Learning and Generative AI, with research experience at CNR and the CI&SS Lab (University of Naples "Parthenope"). I hold a BSc in Computer Science with **110/110 Summa Cum Laude with Special Mention** and I am currently completing an MSc in Applied Computer Science (Machine Learning & Big Data), with expected graduation in April 2026.
 
-A bilingual (Italian native, English C2 Proficiency) professional, I am highly numerate, resourceful, and capable of working entirely on my own initiative while possessing excellent organizational and team-working abilities. With a strong foundation in problem-solving, I am accustomed to working under pressure and effectively managing dynamic project needs.
+---
 
-## Current Focus & Research
+## Current Research Focus
 
-My academic research and technical expertise are heavily focused on advanced Artificial Intelligence applications:
-* **Generative AI:** Study and implementation of conditional generative models, specifically focusing on Diffusion Models applied to tabular data.
-* **Explainable AI (XAI):** Applying XAI techniques and Feature Importance analysis to ensure the interpretability and transparency of complex predictive models.
-* **Data Mining:** Extracting association rules (Market Basket Analysis) to identify recurring patterns in large datasets.
+My work at the Computational Intelligence & Smart Systems Lab centers on:
+
+- **Generative AI:** Research and implementation of conditional generative models, specifically Diffusion Models applied to tabular data generation and synthetic data augmentation.
+- **Explainable AI (XAI):** Applying XAI techniques and Feature Importance analysis to ensure interpretability and transparency of complex predictive models.
+- **Data Mining:** Extracting association rules via Market Basket Analysis to identify recurring patterns in large-scale datasets.
+
+---
 
 ## Technical Skills
 
-* **Programming Languages:** Python, C, C++, SQL, Java, JavaScript, Assembly, CUDA.
-* **Machine Learning & Data Science:** Generative AI (Diffusion Models), scikit-learn, mlxtend, Pandas, NumPy, XAI, Data Mining.
-* **Tools & Architectures:** Conda, Python venv, Multiprocessing, Git.
-* **OS & Hardware:** Linux (Ubuntu/Debian), Windows, macOS, Arduino.
+- **Programming Languages:** Python, C, C++, SQL, Java, JavaScript
+- **Machine Learning & Data Science:** Generative AI (Diffusion Models), PyTorch, scikit-learn, mlxtend, Pandas, NumPy, XAI, Data Mining, Market Basket Analysis, Jupyter Notebook
+- **GPU & Parallel Computing:** CUDA, Multiprocessing
+- **Tools & DevOps:** Git, Conda, Python venv
+- **Systems:** Linux (Ubuntu/Debian), Windows, macOS
+- **Languages:** Italian (Native), English (C2 — Proficiency)
 
-## About the LaTeX Source Code
+---
 
-The CV was engineered to balance a premium typographic design with strict ATS (Applicant Tracking System) compatibility. 
+## About the LaTeX Source
 
-Key features include:
-* **100% ATS-Friendly:** Linear structure without complex tables to ensure flawless parsing.
-* **Unicode Mapping:** Implementation of the `cmap` package for correct text extraction.
-* **Advanced Typography:** Utilization of `microtype` for optimal text justification.
+The CV was designed to balance a clean, professional aesthetic with strict **ATS (Applicant Tracking System) compatibility**.
 
-### How to compile
-You can easily compile the source file `main.tex` using pdfLaTeX in your local environment:
+Key technical choices:
+- **Single-column linear layout** — ensures flawless parsing by automated screening tools
+- **`cmap` package** — correct Unicode text extraction from the PDF
+- **`microtype`** — advanced typographic justification
+- **No tables, images, or text boxes** — plain semantic structure throughout
+
+### Compile
+
 ```bash
 pdflatex main.tex
 ```
 
+---
+
 ## Contact
-I am open to new opportunities and challenging projects. Feel free to reach out:
 
-Email: a.mungari@gmail.com
+Feel free to reach out for collaborations or opportunities:
 
-LinkedIn: [Alfredo Mungari](https://www.linkedin.com/in/alfredo-mungari-99ab9225a/)
-
-GitHub: [mungowz](https://github.com/mungowz)
-
-ResearchGate: [Alfredo Mungari](https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf)
+- Email: [a.mungari@gmail.com](mailto:a.mungari@gmail.com)
+- LinkedIn: [Alfredo Mungari](https://www.linkedin.com/in/alfredo-mungari-99ab9225a/)
+- GitHub: [mungowz](https://github.com/mungowz)
+- ResearchGate: [Alfredo Mungari](https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf)
