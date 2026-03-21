@@ -1,0 +1,145 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- CORE PACKAGES FOR ATS AND TYPOGRAPHY ---
+\usepackage{cmap} % Ensures correct text extraction for ATS
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}    
+\usepackage[english]{babel} % Set to English for correct hyphenation
+\usepackage{microtype} % TYPOGRAPHY MAGIC: Perfect text justification
+
+% --- FONT AND COLORS ---
+\usepackage[scaled=0.92]{helvet} 
+\renewcommand{\familydefault}{\sfdefault} 
+\usepackage{xcolor}
+
+% Premium Color Palette (Slightly desaturated for elegance)
+\definecolor{primary}{RGB}{20, 45, 90}    % Deep Professional Navy
+\definecolor{secondary}{RGB}{100, 105, 115} % Soft Slate Gray
+\definecolor{accent}{RGB}{35, 115, 175}   % Tech Steel Blue
+
+% --- LAYOUT AND MARGINS ---
+\usepackage[margin=1.4cm, top=1.6cm, bottom=1.6cm]{geometry} 
+
+% --- SPACING AND LINE HEIGHT ---
+\usepackage{setspace}
+\setstretch{1.15} % Airy and readable text
+
+% --- TITLE CUSTOMIZATION ---
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{primary}}{}{0em}{}[\vspace{-0.2em}\color{accent}\rule{\textwidth}{1.2pt}]
+\titlespacing{\section}{0pt}{18pt}{10pt} % More breathing room before sections
+
+% --- LISTS AND BULLET POINTS ---
+\usepackage{enumitem} 
+\setlist[itemize]{leftmargin=*, nosep, topsep=4pt, itemsep=3pt, label=\textcolor{accent}{\textbullet}}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=4pt, itemsep=3pt}
+
+% --- LINKS ---
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Huge \textbf{\textcolor{primary}{Alfredo Mungari}}} \\[6pt]
+    {\Large \textbf{\textcolor{secondary}{Data Scientist \& ML Expert | Software Engineer}}} \\[10pt]
+    \small
+    \textcolor{secondary}{Naples, Italy} \textcolor{accent}{\textbullet} 
+    \textcolor{secondary}{December 20, 2000} \textcolor{accent}{\textbullet} 
+    \textbf{\textcolor{primary}{+39 333 812 6886}} \\
+    \vspace{4pt}
+    \href{mailto:a.mungari@gmail.com}{\textcolor{accent}{a.mungari@gmail.com}} \textcolor{secondary}{\textbullet} 
+    \href{https://www.linkedin.com/in/alfredo-mungari-99ab9225a}{\textcolor{accent}{LinkedIn}} \textcolor{secondary}{\textbullet} 
+    \href{https://github.com/mungowz}{\textcolor{accent}{GitHub}} \textcolor{secondary}{\textbullet} 
+    \href{https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf}{\textcolor{accent}{ResearchGate}}
+\end{center}
+
+\vspace{12pt}
+
+% --- PROFESSIONAL PROFILE ---
+\section*{PROFESSIONAL PROFILE}
+\noindent 
+Data Scientist and Software Engineer specializing in Machine Learning. BSc in Computer Science (Summa Cum Laude) and currently pursuing an MSc in Applied Computer Science (Machine Learning \& Big Data). A highly motivated and proactive professional with a strong aptitude for teamwork and knowledge sharing. Through academic tutoring and research experience at CI\&SS Lab and CNR, I have developed strong problem-solving skills and adaptability in complex technological environments.
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section*{PROFESSIONAL EXPERIENCE}
+
+\noindent
+{\large\textbf{\textcolor{primary}{University of Naples "Parthenope" (CI\&SS Lab)}}} \hfill \textbf{Naples, Italy} \\
+\textbf{\textcolor{accent}{Research Intern / Master's Thesis Student}} \hfill \textit{\textcolor{secondary}{December 2025 -- Present}}
+\begin{itemize}
+    \item Developing a Master's thesis project focused on Machine Learning, Data Mining, and Generative AI within the Computational Intelligence and Smart Systems Lab.
+    \item Researching and implementing conditional generative models, specifically focusing on \textit{Diffusion Models} applied to the generation and manipulation of tabular data.
+    \item Implementing algorithms for extracting association rules (\textit{Market Basket Analysis}) to identify recurring patterns in datasets.
+    \item Applying Explainable AI (XAI) techniques and Feature Importance analysis to ensure the interpretability and transparency of complex predictive models.
+\end{itemize}
+
+\vspace{12pt}
+\noindent
+{\large\textbf{\textcolor{primary}{University of Naples "Parthenope" (Nola Branch)}}} \hfill \textbf{Nola, Italy} \\
+\textbf{\textcolor{accent}{Programming Tutor}} \hfill \textit{\textcolor{secondary}{September 2023 -- July 2025}}
+\begin{itemize}
+    \item Provided academic support for the BSc degree program in Computer Engineering and Science for Cybersecurity.
+    \item Delivered technical assistance and code reviews focusing on programming logic, algorithms, and data structures in C and C++.
+\end{itemize}
+
+\vspace{12pt}
+\noindent
+{\large\textbf{\textcolor{primary}{National Research Council (CNR)}}} \hfill \textbf{Naples, Italy} \\
+\textbf{\textcolor{accent}{Research Intern / Bachelor's Thesis Student}} \hfill \textit{\textcolor{secondary}{April 2022 -- September 2022}}
+\begin{itemize}
+    \item Conducted a Bachelor's thesis project utilizing bioinformatics functions and libraries to study molecular interactions.
+    \item Designed and developed scripts to fully automate the \textit{molecular docking} process between pesticide ligands and \textit{Apis mellifera} receptors.
+\end{itemize}
+
+% ==========================================
+% INTERRUZIONE DI PAGINA INSERITA QUI
+\newpage
+% ==========================================
+
+% --- EDUCATION ---
+\section*{EDUCATION}
+
+\noindent
+\textbf{\textcolor{primary}{University of Naples "Parthenope"}} \hfill \textbf{Naples, Italy} \\
+\textbf{Master's Degree in Applied Computer Science} \hfill \textit{\textcolor{secondary}{Expected: April 23, 2026}} \\
+\small Curriculum: \textit{Machine Learning \& Big Data} \normalsize \\[6pt]
+
+\noindent
+\textbf{\textcolor{primary}{University of Naples "Parthenope"}} \hfill \textbf{Naples, Italy} \\
+\textbf{Bachelor's Degree in Computer Science} \hfill \textit{\textcolor{secondary}{December 2022}} \\
+\small Grade: \textbf{110/110 Summa Cum Laude with Special Mention} \\
+Thesis: \href{https://github.com/mungowz/Bachelor-thesis}{\textcolor{accent}{"Analysis of molecular interactions and development of software for the automation of molecular docking"}} \\
+Project: \href{https://github.com/mungowz/AUDO4RIAS}{\textcolor{accent}{AUDO4RIAS Repository}} \normalsize \\[6pt]
+
+\noindent
+\textbf{\textcolor{primary}{Liceo Scientifico Statale "Enrico Medi"}} \hfill \textbf{Cicciano (NA), Italy} \\
+\textbf{High School Diploma in Scientific Studies} \hfill \textit{\textcolor{secondary}{Grade: 84/100}}
+
+% --- PUBLICATIONS ---
+\section*{PUBLICATIONS}
+\begin{enumerate}
+    \item L.~D'Errico et al. \textit{Emotivation in Human-Robot Interaction for Affective Behavioral Adaptation}. In: \textit{International Conference on Social Robotics (ICSR+AI)}, 2025. URL: \href{https://www.researchgate.net/publication/399369176_Emotivation_in_Human-Robot_Interaction_for_Affective_Behavioral_Adaptation}{\textcolor{accent}{ResearchGate}}
+\end{enumerate}
+
+% --- SKILLS ---
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{\textcolor{primary}{Programming Languages:}} Python, C, C++, SQL, Java, JavaScript, Assembly, CUDA, HTML, CSS.
+    \item \textbf{\textcolor{primary}{Machine Learning \& Data Science:}} Generative AI (Diffusion Models), scikit-learn, mlxtend, Pandas, NumPy, Explainable AI (XAI), Data Mining, Market Basket Analysis.
+    \item \textbf{\textcolor{primary}{Tools \& Architectures:}} Conda, Python venv, Multiprocessing (Parallel Computing), Git.
+    \item \textbf{\textcolor{primary}{Systems \& Hardware:}} Linux (Ubuntu/Debian), Windows, macOS, Arduino.
+    \item \textbf{\textcolor{primary}{Languages:}} Italian (Native), English (C2 - Proficiency).
+\end{itemize}
+
+% --- CERTIFICATIONS & ADDITIONAL INFO ---
+\section*{CERTIFICATIONS \& ADDITIONAL INFO}
+\begin{itemize}
+    \item \textbf{\textcolor{primary}{Certifications:}} iOS Foundation Program (Standard Course).
+    \item \textbf{\textcolor{primary}{Driver's License:}} AM, B (Own vehicle).
+    \item \textbf{\textcolor{primary}{Additional Experience:}} Youth Basketball Referee (FIP Campania, 2016--2017).
+\end{itemize}
+
+\end{document}
