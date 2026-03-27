@@ -10,50 +10,50 @@
 \usepackage{microtype}
 
 % -------------------------------------------------------
-% FONT — Helvetica (same as original, slightly tighter)
+% FONT — Helvetica
 % -------------------------------------------------------
 \usepackage[scaled=0.92]{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{xcolor}
 
 % -------------------------------------------------------
-% COLORS — original palette, unchanged
+% COLORS 
 % -------------------------------------------------------
 \definecolor{primary}{RGB}{20, 45, 90}
 \definecolor{secondary}{RGB}{100, 105, 115}
 \definecolor{accent}{RGB}{35, 115, 175}
 
 % -------------------------------------------------------
-% LAYOUT — tighter margins to gain space
+% LAYOUT — Margini verticali ottimizzati per le nuove righe
 % -------------------------------------------------------
-\usepackage[margin=1.1cm, top=1.2cm, bottom=1.1cm]{geometry}
+\usepackage[margin=1.1cm, top=0.9cm, bottom=0.9cm]{geometry}
 
 % -------------------------------------------------------
-% SPACING
+% SPACING — Interlinea singola standard
 % -------------------------------------------------------
 \usepackage{setspace}
-\setstretch{1.08}
+\setstretch{1.00}
 
 % -------------------------------------------------------
-% SECTION HEADINGS — same style as original, smaller gap
+% SECTION HEADINGS 
 % -------------------------------------------------------
 \usepackage{titlesec}
 \titleformat{\section}
   {\normalsize\bfseries\color{primary}}
   {}{0em}{}
   [\vspace{-0.15em}\color{accent}\rule{\textwidth}{1.0pt}]
-\titlespacing{\section}{0pt}{9pt}{5pt}
+\titlespacing{\section}{0pt}{5pt}{3pt}
 
 % -------------------------------------------------------
-% LISTS — compact
+% LISTS
 % -------------------------------------------------------
 \usepackage{enumitem}
 \setlist[itemize]{
   leftmargin=1.3em, nosep,
-  topsep=2pt, itemsep=1.5pt,
+  topsep=1pt, itemsep=1pt,
   label=\textcolor{accent}{\textbullet}
 }
-\setlist[enumerate]{leftmargin=1.3em, nosep, topsep=2pt, itemsep=1.5pt}
+\setlist[enumerate]{leftmargin=1.3em, nosep, topsep=1pt, itemsep=1pt}
 
 % -------------------------------------------------------
 % LINKS
@@ -72,13 +72,13 @@
 % -------------------------------------------------------
 \begin{center}
   {\fontsize{22pt}{26pt}\selectfont\textbf{\textcolor{primary}{Alfredo Mungari}}}\\[4pt]
-  {\large\textbf{\textcolor{secondary}{Data Scientist \& ML Expert \ | \ Software Engineer}}}\\[7pt]
+  {\large\textbf{\textcolor{secondary}{Data Scientist \& ML Expert \ \textcolor{accent}{|} \ Software Engineer}}}\\[5pt]
   \small
   \textcolor{secondary}{Naples, Italy}
   \textcolor{accent}{\textbullet}
   \textbf{\textcolor{primary}{+39 333 812 6886}}
   \textcolor{accent}{\textbullet}
-  \href{mailto:a.mungari@gmail.com}{\textcolor{accent}{a.mungari@gmail.com}}\\[3pt]
+  \href{mailto:a.mungari@gmail.com}{\textcolor{accent}{a.mungari@gmail.com}}\\[2pt]
   \href{https://www.linkedin.com/in/alfredo-mungari-99ab9225a}{\textcolor{accent}{LinkedIn}}
   \textcolor{secondary}{\textbullet}
   \href{https://github.com/mungowz}{\textcolor{accent}{GitHub}}
@@ -86,7 +86,7 @@
   \href{https://www.researchgate.net/profile/Alfredo-Mungari-2?ev=hdr_xprf}{\textcolor{accent}{ResearchGate}}
 \end{center}
 
-\vspace{4pt}
+\vspace{2pt}
 
 % -------------------------------------------------------
 % PROFESSIONAL PROFILE
@@ -113,7 +113,7 @@ Experienced in collaborative research environments, academic tutoring, and end-t
   \item Applying Explainable AI (XAI) techniques and Feature Importance analysis to ensure interpretability and transparency of complex predictive models.
 \end{itemize}
 
-\vspace{5pt}\noindent
+\vspace{2pt}\noindent
 {\normalsize\textbf{\textcolor{primary}{University of Naples ``Parthenope'' (Nola Branch)}}} \hfill \textbf{\small Nola, Italy}\\
 {\small\textbf{\textcolor{accent}{Programming Tutor}}} \hfill {\small\textit{\textcolor{secondary}{September 2023 -- July 2025}}}
 \begin{itemize}\small
@@ -121,7 +121,7 @@ Experienced in collaborative research environments, academic tutoring, and end-t
   \item Delivered technical assistance and code reviews on programming logic, algorithms, and data structures in C and C++.
 \end{itemize}
 
-\vspace{5pt}\noindent
+\vspace{2pt}\noindent
 {\normalsize\textbf{\textcolor{primary}{National Research Council (CNR)}}} \hfill \textbf{\small Naples, Italy}\\
 {\small\textbf{\textcolor{accent}{Research Intern / Bachelor's Thesis Student}}} \hfill {\small\textit{\textcolor{secondary}{April 2022 -- September 2022}}}
 \begin{itemize}\small
@@ -136,25 +136,26 @@ Experienced in collaborative research environments, academic tutoring, and end-t
 
 \noindent
 {\small\textbf{\textcolor{primary}{University of Naples ``Parthenope''}}} \hfill {\small\textbf{Naples, Italy}}\\
-{\small\textbf{Master's Degree in Applied Computer Science} --- \textit{Machine Learning \& Big Data}} \hfill {\small\textit{\textcolor{secondary}{Expected: April 2026}}}
+{\small\textbf{Master's Degree in Applied Computer Science} \ \textcolor{secondary}{|} \ \textit{Machine Learning \& Big Data}} \hfill {\small\textit{\textcolor{secondary}{Expected: April 2026}}}
 
-\vspace{4pt}\noindent
+\vspace{3pt}\noindent
 {\small\textbf{\textcolor{primary}{University of Naples ``Parthenope''}}} \hfill {\small\textbf{Naples, Italy}}\\
 {\small\textbf{Bachelor's Degree in Computer Science}} \hfill {\small\textit{\textcolor{secondary}{December 2022}}}\\
-{\footnotesize Grade: \textbf{110/110 Summa Cum Laude with Special Mention} \ $\cdot$ \
-Thesis: \href{https://github.com/mungowz/Bachelor-thesis}{\textcolor{accent}{``Molecular interactions \& automation of molecular docking''}} \ $\cdot$ \
+{\footnotesize Grade: \textbf{110/110 Summa Cum Laude with Special Mention} \ \textcolor{secondary}{|} \
+Thesis: \href{https://github.com/mungowz/Bachelor-thesis}{\textcolor{accent}{``Molecular interactions \& automation of molecular docking''}} \ \textcolor{secondary}{|} \
 \href{https://github.com/mungowz/AUDO4RIAS}{\textcolor{accent}{AUDO4RIAS}}}
 
-\vspace{4pt}\noindent
+\vspace{3pt}\noindent
 {\small\textbf{\textcolor{primary}{Liceo Scientifico ``Enrico Medi''}}} \hfill {\small\textbf{Cicciano (NA), Italy}}\\
 {\small\textbf{High School Diploma in Scientific Studies}} \hfill {\small\textit{\textcolor{secondary}{Grade: 84/100}}}
 
 % -------------------------------------------------------
-% PUBLICATIONS
+% PUBLICATIONS & CONFERENCES
 % -------------------------------------------------------
-\section*{PUBLICATIONS}
+\section*{PUBLICATIONS \& CONFERENCES}
 \begin{enumerate}\small
   \item L.~D'Errico et al. \textit{Emotivation in Human-Robot Interaction for Affective Behavioral Adaptation}. In: \textit{Int. Conference on Social Robotics (ICSR+AI)}, 2025. \href{https://www.researchgate.net/publication/399369176_Emotivation_in_Human-Robot_Interaction_for_Affective_Behavioral_Adaptation}{\textcolor{accent}{[ResearchGate]}}
+  \item \textit{Attendance:} The 2nd Italian Conference on Big Data and Data Science (ITA DATA), Naples, Sept. 2023.
 \end{enumerate}
 
 % -------------------------------------------------------
@@ -162,19 +163,23 @@ Thesis: \href{https://github.com/mungowz/Bachelor-thesis}{\textcolor{accent}{``M
 % -------------------------------------------------------
 \section*{SKILLS}
 \begin{itemize}\small
-  \item \textbf{\textcolor{primary}{Programming Languages:}} Python, C, C++, SQL, Java, JavaScript.
+  \item \textbf{\textcolor{primary}{Programming Languages:}} Python, C, C++, SQL, Java, JavaScript, Swift (iOS).
   \item \textbf{\textcolor{primary}{Machine Learning \& Data Science:}} Generative AI (Diffusion Models), PyTorch, scikit-learn, mlxtend, Pandas, NumPy, XAI, Data Mining, Market Basket Analysis, Jupyter Notebook.
-  \item \textbf{\textcolor{primary}{GPU \& Parallel Computing:}} CUDA, Multiprocessing. \quad \textbf{\textcolor{primary}{Tools:}} Git, Conda, Python venv. \quad \textbf{\textcolor{primary}{Systems:}} Linux, Windows, macOS.
-  \item \textbf{\textcolor{primary}{Languages:}} Italian (Native), English (C2 --- Proficiency).
+  \item \textbf{\textcolor{primary}{GPU \& Parallel Computing:}} CUDA, Multiprocessing.
+  \item \textbf{\textcolor{primary}{Tools:}} Git, Conda, Python venv.
+  \item \textbf{\textcolor{primary}{Systems:}} Linux, Windows, macOS.
+  \item \textbf{\textcolor{primary}{Languages:}} Italian (Native), English (C2 \textcolor{secondary}{|} British Institutes ESOL International).
 \end{itemize}
 
 % -------------------------------------------------------
 % ADDITIONAL INFO
 % -------------------------------------------------------
 \section*{ADDITIONAL INFO}
-\noindent\small
-\textbf{\textcolor{primary}{Driver's License:}} AM, B (own vehicle). \quad
-\textbf{\textcolor{primary}{Other:}} Youth Basketball Referee, FIP Campania (2016--2017) --- leadership and decision-making under pressure.
+\begin{itemize}\small
+  \item \textbf{\textcolor{primary}{Driver's License:}} AM, B (own vehicle).
+  \item \textbf{\textcolor{primary}{Courses:}} Apple iOS Foundation Program.
+  \item \textbf{\textcolor{primary}{Other:}} Youth Basketball Referee, FIP Campania (2016--2017).
+\end{itemize}
 
 % -------------------------------------------------------
 \end{document}
