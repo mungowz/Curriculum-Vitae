@@ -55,9 +55,9 @@ The CV was designed to balance a clean, professional aesthetic with strict **ATS
 
 Key technical choices:
 
-- **Single-column linear layout** — ensures flawless parsing by automated screening tools
-- **`cmap` package** — correct Unicode text extraction from the PDF
-- **`microtype`** — advanced typographic justification
+- **Single-column linear layout:** ensures flawless parsing by automated screening tools
+- **`cmap` package:** correct Unicode text extraction from the PDF
+- **`microtype`:**  advanced typographic justification
 - **No tables, images, or text boxes** — plain semantic structure throughout
 
 ### Compile
