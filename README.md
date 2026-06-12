@@ -18,7 +18,13 @@ This repository contains the LaTeX source code and the compiled PDF of my curric
 
 ## About Me
 
-I am a Data Scientist specializing in Machine Learning and Generative AI, with research experience at CNR and the CI&SS Lab (University of Naples "Parthenope"). I hold a BSc in Computer Science with **110/110 Summa Cum Laude with Special Mention** and I am currently completing an MSc in Applied Computer Science (Machine Learning & Big Data), with expected graduation in April 2026.
+I am a Data Scientist specializing in Machine Learning and Generative AI, with research experience at CNR and the CI&SS Lab (University of Naples "Parthenope"). I hold an MSc in Applied Computer Science (Machine Learning & Big Data) with **110/110 Summa Cum Laude** and a BSc in Computer Science with **110/110 Summa Cum Laude with Special Mention**.
+
+---
+
+## Honors & Awards
+
+- 🏆 **Winner — BOOM Gen AI Innovation Sprint** (powered by CRIF), June 2026: led a 6-person team as **Project Manager**, winning the **KPMG** challenge with *SpendWise*, an AI-agent-powered procurement intelligence platform that turns procurement processes from months to seconds.
 
 ---
 
@@ -37,7 +43,7 @@ My work at the Computational Intelligence & Smart Systems Lab centers on:
 - **Programming Languages:** Python, C, C++, SQL, Java, JavaScript
 - **Machine Learning & Data Science:** Generative AI (Diffusion Models), PyTorch, scikit-learn, mlxtend, Pandas, NumPy, XAI, Data Mining, Market Basket Analysis, Jupyter Notebook
 - **GPU & Parallel Computing:** CUDA, Multiprocessing
-- **Tools & DevOps:** Git, Conda, Python venv
+- **Tools & Methods:** Git, Conda, Python venv, Project Management
 - **Systems:** Linux (Ubuntu/Debian), Windows, macOS
 - **Languages:** Italian (Native), English (C2 — Proficiency)
 
@@ -48,6 +54,7 @@ My work at the Computational Intelligence & Smart Systems Lab centers on:
 The CV was designed to balance a clean, professional aesthetic with strict **ATS (Applicant Tracking System) compatibility**.
 
 Key technical choices:
+
 - **Single-column linear layout** — ensures flawless parsing by automated screening tools
 - **`cmap` package** — correct Unicode text extraction from the PDF
 - **`microtype`** — advanced typographic justification
